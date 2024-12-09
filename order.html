@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Smiley Softy Corner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assests/logo.jpg" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#contact-section">Contact Us</a>
+        </nav>
+    </header>
+    <section id="order" class="order" style="text-align: center; padding: 20px;">
+        <h1 style="font-size: 32px;">Order Your Favorite Softy</h1>
+        <p style="font-size: 19px;">Fill out the form below to place your order for delicious softy ice cream.</p>
+        <form action="submit_order.php" method="post" style="max-width: 600px; margin: auto; background-image: url(assests/bg2.jpg); padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <label for="flavor" style="display: block; margin-bottom: 5px; font-size: 22px;">Flavor:</label>
+            <select id="flavor" name="flavor" required style="width: 100%; margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 22px;">
+                <option value="strawberry">Strawberry - 20Rs</option>
+                <option value="vanilla">Vanilla - 20Rs</option>
+                <option value="chocolate">Chocolate - 30Rs</option>
+                <option value="butterscotch">Butterscotch - 20Rs</option>
+                <option value="chocovanilla">ChocoVanilla - 30Rs</option>
+            </select><br>
+            
+            <label for="name" style="display: block; margin-bottom: 5px; font-size: 22px;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 22px;"><br>
+            
+            <label for="email" style="display: block; margin-bottom: 5px; font-size: 22px;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 22px;"><br>
+            
+            <label for="quantity" style="display: block; margin-bottom: 5px; font-size: 22px;">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required style="width: 100%; margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 22px;"><br>
+            
+            <button type="submit" class="button" style="color: #fff; cursor: pointer; transition: background-color 0.3s; font-size: 22px;">Place Order</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Smiley Softy Corner 😊</p>
+    </footer>
+</body>
+</html>
