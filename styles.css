@@ -138,13 +138,3 @@ footer {
     background-color: #e01186;
 }
 
-.prototype {
-      width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition:transform0.3s ease;
- } 
-
-.prototype:hover {
-        transform: scale(1.1);
-}
