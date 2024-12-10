@@ -145,7 +145,6 @@ footer {
     transition:transform0.3s ease;
  } 
 
-.prototype:hover{
+.prototype:hover {
         transform: scale(1.1);
-}
 }
